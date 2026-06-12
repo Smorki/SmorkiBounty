@@ -1,0 +1,21 @@
+settings:
+  minimum-bounty: 1000
+  high-bounty-threshold: 50000
+  tax-percentage: 5.0
+
+messages:
+  prefix: "<#AF3CEA>sᴍᴏʀᴋɪʙᴏᴜɴᴛʏ</#AF3CEA> <dark_gray>» </dark_gray>"
+  bounty-placed: "<gray>ᴀ ʙᴏᴜɴᴛʏ ᴏғ </gray><#AF3CEA>$%amount%</#AF3CEA> <gray>ʜᴀs ʙᴇᴇɴ ᴘʟᴀᴄᴇᴅ ᴏɴ ᴛʜᴇ ʜᴇᴀᴅ ᴏғ </gray><white>%player%</white><gray>!</gray>"
+  bounty-claimed-high: "<#AF3CEA>ʟᴇɢᴇɴᴅᴀʀʏ ʜᴜɴᴛ!</#AF3CEA> <white>%killer%</white> <gray>ʜᴀs ᴇxᴇᴄᴜᴛᴇᴅ</gray> <white>%victim%</white> <gray>ᴀɴᴅ ᴄʟᴀɪᴍᴇᴅ ᴀ ᴍᴀssɪᴠᴇ ʙᴏᴜɴᴛʏ ᴏғ </gray><gold>$%amount%</gold><gray>!</gray>"
+  bounty-claimed-normal: "<white>%killer%</white> <gray>ᴄʟᴀɪᴍᴇᴅ ᴛʜᴇ </gray><#AF3CEA>$%amount%</#AF3CEA> <gray>ʙᴏᴜɴᴛʏ ᴏɴ </gray><white>%victim%</white><gray>.</gray>"
+  insufficient-funds: "<red>ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ ɪɴ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ!</red>"
+
+gui:
+  title: "<#AF3CEA>ʙᴏᴜɴᴛɪᴇs</#AF3CEA>"
+  border-item: "PURPLE_STAINED_GLASS_PANE"
+  skull-name: "<#AF3CEA>%target_player%</#AF3CEA>"
+  skull-lore:
+    - "<dark_gray>----------------------</dark_gray>"
+    - " <gray>ᴄᴜʀʀᴇɴᴛ ʙᴏᴜɴᴛʏ: <gold>$%amount%</gold></gray>"
+    - " <gray>sᴛᴀᴛᴜs: <red>ᴡᴀɴᴛᴇᴅ ᴅᴇᴀᴅ</red></gray>"
+    - "<dark_gray>----------------------</dark_gray>"
