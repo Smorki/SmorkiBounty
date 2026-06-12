@@ -1,0 +1,37 @@
+name: SmorkiBounty
+version: '1.0.0'
+main: com.smorki.smorkibounty.SmorkiBounty
+api-version: '1.21'
+folia-supported: true
+description: Async player bounty system with Vault economy integration.
+authors: [ Smorki ]
+depend:
+  - Vault
+
+commands:
+  bounty:
+    description: Main bounty command.
+    usage: /bounty set <player> <amount>
+    permission: smorkibounty.use
+  bounties:
+    description: Opens the bounty GUI.
+    usage: /bounties
+    permission: smorkibounty.gui
+  smorkibounty:
+    description: Plugin management command.
+    usage: /smorkibounty reload
+    permission: smorkibounty.reload
+
+permissions:
+  smorkibounty.use:
+    description: Grants access to /bounty
+    default: true
+  smorkibounty.set:
+    description: Allows placing bounties via /bounty set
+    default: true
+  smorkibounty.gui:
+    description: Allows opening the bounty GUI via /bounties
+    default: true
+  smorkibounty.reload:
+    description: Allows reloading the plugin config
+    default: op
